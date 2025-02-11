@@ -80,7 +80,7 @@ if __name__ == '__main__':
             print(songs)
             i=random.randint(0,50)
             os.startfile(os.path.join(music_dir,songs[i]))
-        elif 'stop jarvis' in query:
+        elif 'stop friday' in query:
            speak("shutting down")
            sys.exit();
         elif query != None:
