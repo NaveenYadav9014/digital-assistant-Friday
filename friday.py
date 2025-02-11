@@ -84,7 +84,7 @@ if __name__ == '__main__':
            speak("shutting down")
            sys.exit();
         elif query != None:
-            openai.api_key = "sk-proj-8OiZnfZxL09fddrreYlbkFJ2Ep3322pPGptCW66LtnQw"
+            openai.api_key = "sk-proj-8OiZnfZxL09fddrreYlbkFJ2Epskjkjd3322pPnQw"
             model_engine = "gpt-3.5-turbo"
             prompt = query
             # Generate a response
